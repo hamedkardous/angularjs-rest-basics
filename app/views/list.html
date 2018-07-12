@@ -1,0 +1,5 @@
+<div ng-repeat="rc in records">
+    <p ng-click="viewSingle(rc.id)">{{rc.id}}</p>
+    <p>{{rc.email}}</p>
+    <button ng-click="delete(rc, $index)">delete</button>
+</div>
